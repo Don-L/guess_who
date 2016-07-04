@@ -1,0 +1,124 @@
+@font-face {
+  font-family: sf_font;
+  src: url("./bckg_etc/ARCADE.TTF")
+}
+
+img.sf_logo {
+  width: 20%;
+  /*padding-top: 80px;*/
+  display: inline-block;
+}
+
+p.query {
+  height: 50px;
+}
+
+button {
+  display: table;
+  margin: 0 auto;
+  margin-top: 5px;
+  font-family: sf_font;
+  font-size: 1.3rem;
+  color: red;
+  text-shadow: 1px 1px yellow;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  border-color: red;
+  background-color: #333333;
+}
+
+p.header {
+  display: inline-block;
+  font-family: sf_font;
+  font-size: 5rem;
+  color: red;
+  text-shadow: 2px 4px yellow;
+  padding-right: 1%;
+}
+
+img.guess_who_logo {
+  padding-top: 0;
+  display: inline-block;
+}
+
+h1.big {
+  font-size: 7rem;
+  font-family: sf_font;
+}
+
+h1.red {
+  color: red;
+}
+
+h1.yellow {
+  color: yellow;
+  text-shadow: 2px 2px red;
+}
+
+p.yellow {
+  font-size: 2rem;
+  font-family: sf_font;
+  color: yellow;
+  text-shadow: 2px 2px red;
+  text-align: center;
+}
+
+label.yellow {
+  font-size: 2rem;
+  font-family: sf_font;
+  color: yellow;
+  text-shadow: 2px 2px red;
+}
+
+form.form {
+  text-align: center;
+}
+
+html {
+
+  /*font-family: 'Montserrat', sans-serif;*/
+  background-image: url("./bckg_etc/sf2-11-sagat.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;;
+  margin: 0;
+  width: 100%;
+  background-size: contain;
+  background-position: 0% 25%;
+  background-color: #333333;
+
+}
+
+img.char {
+  width: 95%;
+  height: 300px;
+  opacity: 0.99999999;
+}
+
+img.char:hover {
+  border-color: yellow;
+  border-style: solid;
+}
+
+div.char {
+  width: 95%;
+  height: 95%;
+  /*background-color: yellow;*/
+}
+
+div.deck {
+  display: inline-block;
+  width: calc(400%/21);
+  /*background-color: yellow;*/
+  padding-left: calc(100%/21);
+  height: 300px;
+}
+
+div.form_container {
+  height: 50px;
+}
+
+select {
+  font-family: sf_font;
+  color: red;
+  font-weight: bold;
+}
